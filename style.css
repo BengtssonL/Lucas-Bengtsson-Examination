@@ -1,8 +1,8 @@
 * {
-    
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 
@@ -14,7 +14,6 @@ body {
 .bild {
     display: flex;
     margin: 1%;
-    padding: ;
 }
 
 .other-column {
@@ -52,7 +51,8 @@ header {
     justify-content: space-around;
     font-family: Arial, Helvetica, sans-serif;
     padding: 2%;
-
+    width: 100%;
+    color: black;
 }
 .navigation{
 background: black;
@@ -68,7 +68,7 @@ height: 20px;
     margin: auto;
     background-color: white;
     margin-bottom: 5%;
-    margin-top: 5%;
+    margin-top: 1%;
 }
 
 .text {
@@ -82,7 +82,19 @@ height: 20px;
     align-items: center;
     width: 100%;
     padding: 1%;
-    height: 500px;
+    height: auto;
 
 }
+
+.album {
+    color: white;
+    padding: 3%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
     
+}
+
+.album img {
+    width: 33%;
+}
